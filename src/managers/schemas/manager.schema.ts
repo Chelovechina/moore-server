@@ -16,6 +16,9 @@ export class Manager {
 
   @Prop({ required: true })
   password: string;
+
+  @Prop({ required: true })
+  dealsAmount: number;
 }
 
 export const ManagerSchema = SchemaFactory.createForClass(Manager);
