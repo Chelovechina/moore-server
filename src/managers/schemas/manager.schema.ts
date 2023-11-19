@@ -17,7 +17,7 @@ export class Manager {
   @Prop({ required: true })
   password: string;
 
-  @Prop({ required: true })
+  @Prop({ required: true, default: 0 })
   dealsAmount: number;
 }
 
